@@ -1,0 +1,12 @@
+.header_box {
+    text-align: center;
+}
+.bgcolor_header {
+    background-color: #f4b490;
+}
+.logo{
+    color: azure;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,115 @@
+.card_box{
+    position: relative;
+    perspective: 1000px;
+}
+.box{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.hr{
+    display: block;
+    height: 1;
+    border: 1px solid #f4b490;
+}
+.card_box_header_p{
+    text-align: center;
+    padding: 10px;
+}
+.img_user_card{
+    display: block;
+    width: 70px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.desc_box_nameUser{
+    display: flex;
+    justify-content: space-around;
+}
+.desc_user_card{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card_box_h4_title{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.card_box_button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.button_actions{
+    height: 40px;
+    width: 200px;
+    background-color: #0a58ca;
+    border: 1px solid rgb(78, 78, 248);
+    border-radius: 10px;
+    font-size: 17px;
+    color:white
+}
+.button_actions:active{
+    background-color: rgb(78, 78, 248);
+    color:white
+}
+.front_card{
+    position: relative;
+    transform: rotateY(360deg);
+}
+.back_card{
+    transform: rotateY(180deg);
+    position: absolute;
+    top:0px
+}
+.front_card{
+    width: 250px;
+    border: 1px solid #f4b490;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 1s;
+
+}
+.back_card{
+    width: 250px;
+    height: 100%;
+    border: 1px solid #f4b490;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.form_add_user_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.input_form{
+    margin-bottom: 15px !important;
+}
+.button_edit{
+    margin-bottom: 10px;
+}
+.textArea_form{
+    width: 223px !important;
+    height: 70px !important;
+    padding-left: 10px;
+    resize: none;
+    margin-bottom: 10px;
+}
+/* .card_box:hover .front_card {transform: rotateY(180deg); opacity: 0.0;    }
+.card_box:hover .back_card {transform: rotateY(0deg); } */
+
